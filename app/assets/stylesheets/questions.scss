@@ -1,0 +1,47 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+$border: #e5e5e5;
+$strong: 6px;
+
+section{
+    margin-left: 10px;
+
+}
+
+.dialogue{
+    border-left: $strong solid $border;
+    padding: 5px;
+    margin: 10px 0 10px 10px;
+    p{
+        margin-left: 10px;
+    }
+}
+
+.background{
+    background-color: #fffee1;
+}
+
+a{
+    text-decoration: none;
+    color: #457b9d;
+    margin-left: 10px;
+}
+
+form{
+    label{
+        font-size: 0.8em;
+        padding-bottom: 15px;
+    }
+    #question{
+        padding: 15px;
+    }
+    #submit{
+        padding: 15px;
+        background-color: #0077b6;
+        color: #fff;
+        font-weight: 600;
+        border: 0;
+    }
+}
